@@ -28,7 +28,7 @@ int main(){
     }
     else{
         
-        cout<<"Your Account is Locked"<<endl;
+        cout<<"Your Account is Locked Call The Bank For Help"<<endl;
     }
     
     return 0;  

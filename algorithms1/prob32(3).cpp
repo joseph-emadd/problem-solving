@@ -25,6 +25,5 @@ int Power (int m, int n){
 }
 int main(){
     cout<<Power(ReadPower(), ReadNumber());
-
     return 0;  
 }

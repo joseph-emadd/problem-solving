@@ -3,17 +3,18 @@
 using namespace std;
 int ReadNumber (){
     int num;
-    cout<<"Enter the number \n";
+    cout<<"Please enter the number \n";
     cin>>num;
     return num;
 }
-void PowerOf2_3_4 (int num ){
-    cout<<num*num<<endl;
-    cout<<num*num*num<<endl;
-    cout<<num*num*num*num<<endl;
+void CalcPower2_3_4 (int num){
+    int a ,b, c;
+    a=num*num;
+    b=num*num*num;
+    c=num*num*num;
+    cout<<a<<endl<<b<<endl<<c<<endl;
 }
 int main(){
-    PowerOf2_3_4(ReadNumber());
-
+    CalcPower2_3_4(ReadNumber());
     return 0;  
 }
