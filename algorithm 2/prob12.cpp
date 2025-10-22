@@ -9,8 +9,8 @@ int ReadPositiveNumber(string message){
     return number;
 }
 void PrintInvertedPattern (int number){
-    for(int i=1 ; i<=number;i++){
-        for(int j=i; j>=1 ; j--){
+    for(int i=number; i>=1 ; i--){
+        for(int j=i ; j>=1; j--){
             cout<<i;
         }
         cout<<endl;
